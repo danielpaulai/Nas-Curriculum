@@ -1,0 +1,3 @@
+-- Seed file: placeholder for exemplars, voice rules, and corpus data.
+-- Run scripts/seed-corpus.ts to load title_corpus.json into the titles table.
+-- Run scripts/import-sessions.ts to load historical session data.
