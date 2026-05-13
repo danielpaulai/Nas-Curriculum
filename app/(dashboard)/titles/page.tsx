@@ -131,9 +131,14 @@ export default function TitlesPage() {
           <h1 className="text-2xl font-bold text-white">Title Generator</h1>
           <p className="text-sm text-gray-400 mt-1">10-framework Nas-voice engine + slop detector</p>
         </div>
-        <Link href="/titles/history" className="text-sm text-gray-400 hover:text-white transition-colors">
-          History →
-        </Link>
+        <div className="flex gap-4">
+          <Link href="/titles/batch" className="text-sm text-gray-400 hover:text-white transition-colors">
+            2-Week Planner →
+          </Link>
+          <Link href="/titles/history" className="text-sm text-gray-400 hover:text-white transition-colors">
+            History →
+          </Link>
+        </div>
       </div>
 
       {/* Input form */}
